@@ -4,6 +4,9 @@
     --WHITE: #FFF;
     --CORNFLOWER: #E7E9FC;
     --CLOUD: #F4F4FD;
+    --GREY: #2E2F42;
+    --SLATE: #434455;
+    --LIGHTSLATE:#8E8F99;
 }
 
 *,
@@ -28,10 +31,28 @@ ul{
     padding-left: 0%;
 }
 h2{
-    display:block;
-    justify-content: center;
-    font-size:40px;
+    color: var(--NAVY-BLUE);
     text-align: center;
+    
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3{
+    color: var(--NAVY-BLUE);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+
+p{
+    color:var(--SLATE);
 }
 
 
@@ -89,9 +110,9 @@ h2{
 
 /*Order Service No Flex*/
 
+
 .header-solution{
-    background-color: var(--NAVY-BLUE);
-    padding-top: 118px;
+    padding-top: 188px;
     padding-bottom: 188px;
     color:var(--WHITE);
     flex-shrink: 0;
@@ -126,16 +147,20 @@ h2{
 
 /*Description*/
 
+.head-content{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .studio-strat,
 .studio-punc,
 .studio-dili,
 .studio-tech{
-    padding-top: 118px;
-    padding-bottom: 118px;
     display: inline-flex;
     width: 264px;
     flex-direction: column;
     align-items: flex-start;
+    text-align: justify;
     gap: 8px;
 }
 
@@ -145,6 +170,9 @@ h2{
     gap:24px;
     justify-content: center;
 }
+
+
+/*Wha we are doing*/
 
 .portfolio-doing{
     display: flex;
@@ -160,7 +188,8 @@ h2{
 /*Team Members*/
 
 .header-team{
-    padding: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: var(--CORNFLOWER);
 }
 
@@ -187,7 +216,25 @@ h2{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+/*Client Styling*/
+.client-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 112px;
+    gap: 24px;
+}
 
+.customer{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.client-logo-box{
+    border-radius: 4px;
+    border: 1px solid var(--LIGHTSLATE);
+    padding: 16px 32px;
+}
 /*Footer Section*/
 .logo-footer{
     text-decoration: none;
