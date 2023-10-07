@@ -40,7 +40,6 @@ h2{
 .NavBar{
     display: flex; 
     justify-content: space-around;
-    width: 1440px;
     height: 72px;
     align-items: center;  
     background-color: var(--CORNFLOWER);
@@ -79,23 +78,24 @@ h2{
     font-weight: 500;
 }
 
-
-/*Order Service*/
-
-.header-solution{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--NAVY-BLUE);
-    color:var(--WHITE);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
+.contacts a{
+    text-decoration: none;
+    font-style: normal;
+    color:var(--NAVY-BLUE);
+    font-weight: 500;
+    margin-top: none;
 }
 
-.header-div{
-    width: 496px;
+
+/*Order Service No Flex*/
+
+.header-solution{
+    background-color: var(--NAVY-BLUE);
+    padding-top: 118px;
+    padding-bottom: 188px;
+    color:var(--WHITE);
+    flex-shrink: 0;
+    text-align: center;
 }
 
 .header-main{
@@ -107,66 +107,38 @@ h2{
 
 /*Button Div+*/
 
-
 .order{
     background-color: var(--IRIS);
     color: var(--WHITE);
-    display: inline-flex;
     border-radius: 4px;
     padding: 16px 32px;
-    align-items: flex-start;
+    text-align: center;
 
 }
 .order{
     border-style: none;
     font-weight: 500;
-
 }
 .order:hover{
     opacity: .5;
 }
 
-.contacts a{
-    text-decoration: none;
-    font-style: normal;
-    color:var(--NAVY-BLUE);
-    font-weight: 500;
-    margin-top: none;
-}
 
 /*Description*/
-.head-content{
- padding:120px;
-}
 
-.studio-strat{
-    display: flex;
+.studio-strat,
+.studio-punc,
+.studio-dili,
+.studio-tech{
+    padding-top: 118px;
+    padding-bottom: 118px;
+    display: inline-flex;
     width: 264px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
 }
-.studio-punc{
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;   
-}   
-.studio-dili{
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;   
-}   
-.studio-tech{
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;   
-}  
+
 .studio-des{
     display: flex;
     flex-direction: row;
@@ -188,11 +160,8 @@ h2{
 /*Team Members*/
 
 .header-team{
-    width:1440px;
-    height: 732px;
     padding: 120px;
     background-color: var(--CORNFLOWER);
-    padding-top: 62px;
 }
 
 .team-members{
@@ -233,18 +202,11 @@ h2{
 .footer-end{
     background-color: var(--NAVY-BLUE);
     color: var(--CLOUD);
-    width: 1440px;
-    height: 312px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 12px;
+    padding-top: 156px;
+    padding-bottom: 156px;
     padding-left: 10%;
+    
 
-}
-
-.foot-header{
-    display: block;
 }
 .footer-body{
     width:264px;
