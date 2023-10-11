@@ -111,9 +111,16 @@ p{
 
 /*Order Service No Flex*/
 
+.studio{
+    background-image: url("../images/people-hero.png");
+    position: relative;
+    background-size: cover;
+}
+
 
 .header-solution{
-    background-color: var(--NAVY-BLUE);
+    background-color: var(--GREY);
+    opacity: 0.7;
     padding-top: 188px;
     padding-bottom: 188px;
     color:var(--WHITE);
@@ -236,7 +243,7 @@ p{
 }
 
 .team-social-icon{
-    backgorund-color: var(--IRIS);
+    background-color: var(--IRIS);
     height:40px;
     width: 40px;
     border-radius:50%;
@@ -285,9 +292,31 @@ p{
     padding-top: 156px;
     padding-bottom: 156px;
     padding-left: 10%;
-    
-
+    display: flex;
 }
 .footer-body{
+    padding-top:16px;
     width:264px;
+}
+
+.social-footer{
+    padding-left: 269px;
+}
+
+.social-icon-div{
+    padding-top: 16px;
+}
+.social-icon-footer{
+    background-color: var(--IRIS);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.social-icon-footer svg{
+    fill:var(--WHITE);
 }
