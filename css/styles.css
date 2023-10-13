@@ -131,7 +131,8 @@ p{
 .header-main{
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px; 
+    line-height: 60px;
+    color: var(--WHITE);
 }
 
 
@@ -293,6 +294,7 @@ p{
     padding-bottom: 156px;
     padding-left: 10%;
     display: flex;
+    align-content: baseline;
 }
 .footer-body{
     padding-top:16px;
@@ -314,7 +316,6 @@ p{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
 }
 
 .social-icon-footer svg{

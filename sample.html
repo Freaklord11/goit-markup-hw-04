@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Style the overlay container */
+        .overlay-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Style the image */
+        .overlay-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Style the overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Style the overlay text */
+        .overlay-text {
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        /* Style the button */
+        .overlay-button {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay-container">
+        <img class="overlay-image" src="images/people-hero.png" alt="Your Image">
+        <div class="overlay">
+            <div class="overlay-text">White Text Overlay</div>
+            <a href="#" class="overlay-button">Click Me</a>
+        </div>
+    </div>
+</body>
+</html>
